@@ -141,11 +141,11 @@ public class Assignment2 {
      */
     /*
      write your understanding here.
-     Your Answer: In function main, a and b are pointing to Employee objects with name 'Jenny' and 'Jone, respectively.
-     When using swap, new pointers x and y in function swap will point to Employee objects that are pointed by a and b, respecitively.
-     In function swap, x and y are swaping what they were pointing to.
+     Your Answer: In main method, a and b are pointing to Employee objects with name 'Jenny' and 'Jone, respectively.
+     When using swap, new pointers x and y in swap method will point to Employee objects that are pointed by a and b, respecitively.
+     In swap method, x and y are swaping what they were pointing to.
      As a result, x is to object with name 'John', y is to object with name 'Jenny.
-     However, a and b in function main do not change what they are pointing to and stay the same.
+     However, a and b in main method do not change what they are pointing to and stay the same.
      So, when we want to get names of a and b, the results will not change.
         
     */
